@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    text-align: center;
+font-family:sans-serif;
+    height:100vh;
+    background-image:url(https://images.pexels.com/photos/19062073/pexels-photo-19062073/free-photo-of-clouds-over-foggy-hills-at-dawn.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+div{
+    margin:10px;
+    width:500px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    color:white;
+    background:linear-gradient(to left, #03032d,#06305d);
+    transform:translate(-50%,-50%);
+    padding:30px;
+    box-shadow:2px 2px 20px black;
+    opacity:0.4;
+
+}
+
+h2{
+    font-size:45px;
+    font-weight:600;
+    color:white;
+}
+
+.text{
+    text-align:left;
+    margin-left:50px;
+    margin-top:10px;
+    color:white;
+    font-size:18px;
+}
+
+#country,#state,#city,#pin{
+    color: white;
+    text-align:left;
+    font-size:20px;
+    font-weight:200;
+    border:1px solid skyblue;
+    width:250px;
+    background-color:transparent;
+    border-radius:5px;
+    outline:none;
+    
+}
+
+.btn{
+    display:block;
+    font-size:inherit;
+margin-left: 200px;
+    margin-top:30px;
+    width:100px;
+    height:40px;
+    color:black;
+    background-color:#E0E0E0;
+border:3px solid #e8e8ed;
+border-radius:10px;
+}
+.btn:hover{
+    color:white;
+    background-color:rgb(41 41 45 / 60%);
+}
