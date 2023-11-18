@@ -39,6 +39,42 @@ body {
   overflow: hidden;
 }
 
+
+.images{
+  width:100%;
+  max-width:170px;
+  /* margin: 0px 0px 15px 200px; */
+  float:right;
+
+}
+.img1,.img2,.img3,.img4,.img5,.img6,.img7{
+  border:4px solid black;
+  border-radius:50%;
+}
+
+.img1{
+   margin: 22px 9px -132px 200px;
+}
+
+.img2{
+   margin: 22px 10px -122px 330px;
+}
+.img3{
+   margin: 32px 10px -182px 220px;
+}
+.img4{
+   margin: 52px 10px 22px 380px;
+}
+
+.img5{
+   margin: -105px 10px 22px 270px;
+}
+.img6{
+   margin: -10000px 10px 50px 120px;
+}
+.img7{
+   margin: -10000px 10px 22px 420px;
+}
 img {
   width: 100%;
 }
