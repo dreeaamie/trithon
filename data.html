@@ -5,21 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="data.css">
+	<link rel="stylesheet" href="	https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  
 </head>
 <body>
-    <div>
+
+<img src="  img/ sddiagnose.png" alt="">
+        <div > 
         <h2>Enter Details</h2>
-        <p class="text">country</p>
-        <input type="text" id="country">
-        <p class="text">State</p>
-        <input type="text" id="state">
-        <p class="text">city/village</p>
-        <input type="text" id="city">
-        <p class="text">pincode</p>
-        <input type="text" id="pin">
-        <button class="btn">
-            check 
+        <label class="text" >Country :</label>
+        <input type="text" id="country" value="India"> <br>
+        <label class="tex7t"> State :</label>
+        <input type="text" id="state"> <br>
+        <label class="text" >City :</label>
+        <input type="text" id="city"> <br>
+
+        <label class="text">Month :</label>
+        <input type="month" id="month" name="bdaymonth">
+        <br>
+        <label class="text" for="age">Age :</label>
+        <select name="age" id="age">
+          <option value="0-5">0-5</option>
+          <option value="5-10">5-10</option>
+          <option value="10-15">10-15</option>
+          <option value="15-20">15-20</option>
+          <option value="0-5">20-25</option>
+          <option value="5-10">25-30</option>
+          <option value="10-15">30-35</option>
+          <option value="15-20">35-40</option>
+          <option value="0-5">40-45</option>
+          <option value="5-10">45-50</option>
+          <option value="10-15">50-55</option>
+          <option value="15-20">55-60</option>
+          <option value="15-20">60+</option>
+        </select>
+       <br>
+<label for="gender" class="text">Gender :</label>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+        <input type="radio" name="gender" value="Others"> Others 
+
+        <!-- <p class="text">week</p>
+        <input type="week" id="week" name="week"> -->
+        <button class="btn" style="font-family:Georgia, 'Times New Roman', Times, serif;">
+            Predict
         </button>
     </div>
+
 </body>
 </html>
